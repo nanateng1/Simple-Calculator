@@ -6,6 +6,8 @@
 
 html {
   font-size: 62.5%;
+  background: rgb(2, 0, 36);
+  background: linear-gradient(45deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 49%, rgba(0, 212, 255, 1) 100%);
 }
 
 .calc_body {
@@ -15,7 +17,9 @@ html {
   align-items: center;
   width: 50rem;
   margin: auto;
-  border: 2px blue solid;
+  border: 2px rgb(0, 255, 247) solid;
+  border-radius: 15px;
+  padding: 1rem 0;
 }
 
 .screen {
@@ -33,12 +37,17 @@ html {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   gap: 1rem;
-  margin: 1rem 0;
+  margin: 1rem 0 0 0;
 }
 
 button {
   width: 10rem;
   height: 10rem;
   border-radius: 15px;
-  font-size: 4rem;
+  color: #090909;
+  padding: 0.7em 1.7em;
+  font-size: 2rem;
+  background: #bebebe;
+  border: 1px solid #e8e8e8;
+  transition: all 0.3s;
 }
