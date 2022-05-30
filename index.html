@@ -9,38 +9,50 @@
   </head>
   <body>
     <main class="calc_body">
-      <div class="screen"></div>
+      <section class="screen">
+        <input type="text" class="screen" value="0" disabled />
+      </section>
       <section class="keypad">
-        <div class="first section">
-          <div class="key" id="clear"><h2>C</h2></div>
-          <div class="key"><h2>MC</h2></div>
-          <div class="key" id="percentage"><h2>%</h2></div>
-          <div class="key round" id="divide"><h2>/</h2></div>
-        </div>
-        <div class="second section">
-          <div class="key numeric"><h2>7</h2></div>
-          <div class="key numeric"><h2>8</h2></div>
-          <div class="key numeric"><h2>9</h2></div>
-          <div class="key round" id="multiply"><h2>X</h2></div>
-        </div>
-        <div class="third section">
-          <div class="key numeric"><h2>4</h2></div>
-          <div class="key numeric"><h2>5</h2></div>
-          <div class="key numeric"><h2>6</h2></div>
-          <div class="key round" id="substract"><h2>-</h2></div>
-        </div>
-        <div class="forth section">
-          <div class="key numeric"><h2>1</h2></div>
-          <div class="key numeric"><h2>2</h2></div>
-          <div class="key numeric"><h2>3</h2></div>
-          <div class="key round" id="add"><h2>+</h2></div>
-        </div>
-        <div class="fifth section">
-          <div class="key numeric"><h2>0</h2></div>
-          <div class="key numeric"><h2></h2></div>
-          <div class="key numeric"><h2>.</h2></div>
-          <div class="key round" id="equals"><h2>=</h2></div>
-        </div>
+        <button type="button" value="AC">AC</button>
+        <button type="button" value="+/-">+/-</button>
+        <button type="button" value="%">%</button>
+        <button type="button" value="/">/</button>
+
+        <button type="button" value="7">7</button>
+        <button type="button" value="8">8</button>
+        <button type="button" value="9">9</button>
+        <button type="button" value="X">X</button>
+
+        <button type="button" value="4">4</button>
+        <button type="button" value="5">5</button>
+        <button type="button" value="6">6</button>
+        <button type="button" value="-">-</button>
+
+        <button type="button" value="1">1</button>
+        <button type="button" value="2">2</button>
+        <button type="button" value="3">3</button>
+        <button type="button" value="+">+</button>
+
+        <button type="button" value="9">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            class="icon icon-tabler icon-tabler-arrow-back-up"
+            width="44"
+            height="44"
+            viewBox="0 0 24 24"
+            stroke-width="1.5"
+            stroke="#2c3e50"
+            fill="none"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          >
+            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+            <path d="M9 13l-4 -4l4 -4m-4 4h11a4 4 0 0 1 0 8h-1" />
+          </svg>
+        </button>
+        <button type="button" value="0">0</button>
+        <button type="button" value=".">.</button>
+        <button type="button" value="=">=</button>
       </section>
     </main>
     <script src="/main.js"></script>
