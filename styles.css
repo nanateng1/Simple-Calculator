@@ -14,7 +14,6 @@ html {
   /* justify-content: center; */
   align-items: center;
   width: 50rem;
-  height: 80vh;
   margin: auto;
   border: 2px blue solid;
 }
@@ -27,4 +26,19 @@ html {
 
 .section {
   display: flex;
+}
+
+.keypad {
+  width: 90%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 1rem;
+  margin: 1rem 0;
+}
+
+button {
+  width: 10rem;
+  height: 10rem;
+  border-radius: 15px;
+  font-size: 4rem;
 }
